@@ -1,0 +1,13 @@
+be/com/arcasoftwares/service/MachineService.class
+be/com/arcasoftwares/model/MachineModel.class
+be/com/arcasoftwares/repository/MachineRepository.class
+be/com/arcasoftwares/model/ParameterModel.class
+be/com/arcasoftwares/controller/MachineController.class
+be/com/arcasoftwares/model/ParameterModelDTO.class
+be/com/arcasoftwares/exception/CsvParseException.class
+be/com/arcasoftwares/repository/ParameterRepository.class
+be/com/arcasoftwares/service/ParameterService.class
+be/com/arcasoftwares/ChallengeApplication.class
+be/com/arcasoftwares/repository/KorberRepository.class
+be/com/arcasoftwares/model/ParameterProperty.class
+be/com/arcasoftwares/controller/ParameterController.class

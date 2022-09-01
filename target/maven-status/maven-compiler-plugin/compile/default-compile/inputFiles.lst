@@ -1,0 +1,13 @@
+/usr/local/personal/workspace/java/korber-challange/src/main/java/be/com/arcasoftwares/service/ParameterService.java
+/usr/local/personal/workspace/java/korber-challange/src/main/java/be/com/arcasoftwares/model/ParameterModel.java
+/usr/local/personal/workspace/java/korber-challange/src/main/java/be/com/arcasoftwares/repository/KorberRepository.java
+/usr/local/personal/workspace/java/korber-challange/src/main/java/be/com/arcasoftwares/model/ParameterModelDTO.java
+/usr/local/personal/workspace/java/korber-challange/src/main/java/be/com/arcasoftwares/service/MachineService.java
+/usr/local/personal/workspace/java/korber-challange/src/main/java/be/com/arcasoftwares/ChallengeApplication.java
+/usr/local/personal/workspace/java/korber-challange/src/main/java/be/com/arcasoftwares/controller/ParameterController.java
+/usr/local/personal/workspace/java/korber-challange/src/main/java/be/com/arcasoftwares/repository/ParameterRepository.java
+/usr/local/personal/workspace/java/korber-challange/src/main/java/be/com/arcasoftwares/repository/MachineRepository.java
+/usr/local/personal/workspace/java/korber-challange/src/main/java/be/com/arcasoftwares/exception/CsvParseException.java
+/usr/local/personal/workspace/java/korber-challange/src/main/java/be/com/arcasoftwares/model/ParameterProperty.java
+/usr/local/personal/workspace/java/korber-challange/src/main/java/be/com/arcasoftwares/model/MachineModel.java
+/usr/local/personal/workspace/java/korber-challange/src/main/java/be/com/arcasoftwares/controller/MachineController.java

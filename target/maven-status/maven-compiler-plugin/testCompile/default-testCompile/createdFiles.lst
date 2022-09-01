@@ -1,0 +1,13 @@
+be/com/arcasoftwares/model/ParameterModelDTOTest.class
+integration/ParameterControllerIntegrationTest.class
+be/com/arcasoftwares/repository/ParameterRepositoryTest.class
+be/com/arcasoftwares/model/MachineModelTest.class
+be/com/arcasoftwares/model/ParameterPropertyTest.class
+integration/MachineControllerIntegrationTest.class
+be/com/arcasoftwares/service/MachineServiceTest.class
+be/com/arcasoftwares/repository/MachineRepositoryTest.class
+be/com/arcasoftwares/ChallengeApplicationTest.class
+be/com/arcasoftwares/controller/ParameterControllerTest.class
+be/com/arcasoftwares/model/ParameterModelTest.class
+be/com/arcasoftwares/controller/MachineControllerTest.class
+be/com/arcasoftwares/service/ParameterServiceTest.class

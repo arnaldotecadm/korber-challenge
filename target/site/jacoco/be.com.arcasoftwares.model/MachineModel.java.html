@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MachineModel.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">korber-challenge</a> &gt; <a href="index.source.html" class="el_package">be.com.arcasoftwares.model</a> &gt; <span class="el_source">MachineModel.java</span></div><h1>MachineModel.java</h1><pre class="source lang-java linenums">package be.com.arcasoftwares.model;
+
+import java.util.Objects;
+
+public class MachineModel {
+    private final String key;
+    private final String name;
+
+<span class="fc" id="L9">    public MachineModel(final String key, final String name){</span>
+<span class="fc" id="L10">        this.key = key;</span>
+<span class="fc" id="L11">        this.name = name;</span>
+<span class="fc" id="L12">    }</span>
+
+    public String getKey() {
+<span class="fc" id="L15">        return key;</span>
+    }
+
+    public String getName() {
+<span class="fc" id="L19">        return name;</span>
+    }
+
+    @Override
+    public boolean equals(final Object o) {
+<span class="fc bfc" id="L24" title="All 2 branches covered.">        if (this == o) return true;</span>
+<span class="fc bfc" id="L25" title="All 2 branches covered.">        if (!(o instanceof MachineModel)) return false;</span>
+<span class="fc" id="L26">        final MachineModel that = (MachineModel) o;</span>
+<span class="fc" id="L27">        return Objects.equals(key, that.key);</span>
+    }
+
+    @Override
+    public int hashCode() {
+<span class="fc" id="L32">        return Objects.hash(key);</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

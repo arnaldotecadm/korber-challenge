@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ParameterModel.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">korber-challenge</a> &gt; <a href="index.source.html" class="el_package">be.com.arcasoftwares.model</a> &gt; <span class="el_source">ParameterModel.java</span></div><h1>ParameterModel.java</h1><pre class="source lang-java linenums">package be.com.arcasoftwares.model;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Objects;
+
+public class ParameterModel {
+    private final String machineKey;
+    private final List&lt;ParameterProperty&gt; parameters;
+    private final Date date;
+
+<span class="fc" id="L13">    public ParameterModel(final String machineKey, final List&lt;ParameterProperty&gt; parameters, final Date date) {</span>
+<span class="fc" id="L14">        this.machineKey = machineKey;</span>
+<span class="fc" id="L15">        this.parameters = parameters;</span>
+<span class="fc" id="L16">        this.date = date;</span>
+<span class="fc" id="L17">    }</span>
+
+<span class="fc" id="L19">    public ParameterModel(final ParameterModelDTO modelDTO) {</span>
+<span class="fc" id="L20">        List&lt;ParameterProperty&gt; parameterPropertyList = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L21">        modelDTO.getParameters().forEach((k, v) -&gt; {</span>
+<span class="fc" id="L22">            ParameterProperty parameterProperty = new ParameterProperty(k, v);</span>
+<span class="fc" id="L23">            parameterPropertyList.add(parameterProperty);</span>
+<span class="fc" id="L24">        });</span>
+<span class="fc" id="L25">        this.machineKey = modelDTO.getMachineKey();</span>
+<span class="fc" id="L26">        this.parameters = parameterPropertyList;</span>
+<span class="fc" id="L27">        this.date = new Date();</span>
+<span class="fc" id="L28">    }</span>
+
+    public String getMachineKey() {
+<span class="fc" id="L31">        return machineKey;</span>
+    }
+
+    public List&lt;ParameterProperty&gt; getParameters() {
+<span class="fc" id="L35">        return parameters;</span>
+    }
+
+    public Date getDate() {
+<span class="fc" id="L39">        return date;</span>
+    }
+
+    @Override
+    public boolean equals(final Object o) {
+<span class="fc bfc" id="L44" title="All 2 branches covered.">        if (this == o) return true;</span>
+<span class="fc bfc" id="L45" title="All 2 branches covered.">        if (!(o instanceof ParameterModel)) return false;</span>
+<span class="fc" id="L46">        final ParameterModel that = (ParameterModel) o;</span>
+<span class="fc bfc" id="L47" title="All 4 branches covered.">        return getMachineKey().equals(that.getMachineKey()) &amp;&amp; date.equals(that.date);</span>
+    }
+
+    @Override
+    public int hashCode() {
+<span class="fc" id="L52">        return Objects.hash(getMachineKey(), date);</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

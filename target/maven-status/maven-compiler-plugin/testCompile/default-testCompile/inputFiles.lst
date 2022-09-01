@@ -1,0 +1,13 @@
+/usr/local/personal/workspace/java/korber-challange/src/test/java/be/com/arcasoftwares/model/ParameterPropertyTest.java
+/usr/local/personal/workspace/java/korber-challange/src/test/java/be/com/arcasoftwares/model/ParameterModelDTOTest.java
+/usr/local/personal/workspace/java/korber-challange/src/test/java/be/com/arcasoftwares/ChallengeApplicationTest.java
+/usr/local/personal/workspace/java/korber-challange/src/test/java/be/com/arcasoftwares/model/ParameterModelTest.java
+/usr/local/personal/workspace/java/korber-challange/src/test/java/be/com/arcasoftwares/service/ParameterServiceTest.java
+/usr/local/personal/workspace/java/korber-challange/src/test/java/be/com/arcasoftwares/repository/ParameterRepositoryTest.java
+/usr/local/personal/workspace/java/korber-challange/src/test/java/be/com/arcasoftwares/model/MachineModelTest.java
+/usr/local/personal/workspace/java/korber-challange/src/test/java/be/com/arcasoftwares/repository/MachineRepositoryTest.java
+/usr/local/personal/workspace/java/korber-challange/src/test/java/be/com/arcasoftwares/controller/MachineControllerTest.java
+/usr/local/personal/workspace/java/korber-challange/src/test/java/integration/MachineControllerIntegrationTest.java
+/usr/local/personal/workspace/java/korber-challange/src/test/java/integration/ParameterControllerIntegrationTest.java
+/usr/local/personal/workspace/java/korber-challange/src/test/java/be/com/arcasoftwares/controller/ParameterControllerTest.java
+/usr/local/personal/workspace/java/korber-challange/src/test/java/be/com/arcasoftwares/service/MachineServiceTest.java
